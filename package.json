@@ -4,7 +4,7 @@
   "description": "A personal blog website with form validation, data storage, and async data handling",
   "scripts": {
     "start": "parcel src/html/blog.html",
-    "build": "parcel build src/html/blog.html --dist-dir dist --public-url ./",
+    "build": "parcel build src/html/*.html --dist-dir dist --public-url ./",
     "serve": "parcel serve src/html/blog.html",
     "deploy": "gh-pages -d dist"
   },

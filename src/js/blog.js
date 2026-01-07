@@ -353,5 +353,3 @@ function loadScript(src) {
     script.src = src;
     document.head.appendChild(script);
 }
-
-loadScript('../js/theme.js');

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Register</title>
+  </head>
+  <body>
+    <h1 class="name_tag">Registration Page</h1>
+    <div class="theme-toggle">
+      <label for="darkMode">Dark Mode</label>
+      <label class="switch">
+        <input type="checkbox" id="darkMode" />
+        <span class="slider"></span>
+      </label>
+    </div>
+    <div class="form-container">
+      <form action="login.html" id="registrationForm">
+        <div>
+          <label for="name">Full Name</label>
+          <input id="name" type="text" placeholder="your full name" />
+          <p id="nameError" class="error"></p>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="write your email" />
+          <p id="emailError" class="error"></p>
+        </div>
+        <div>
+          <label for="username">Username</label>
+          <input id="username" type="text" placeholder="username" />
+          <p id="usernameError" class="error"></p>
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input type="password" id="password" />
+          <p id="passwordError" class="error"></p>
+        </div>
+        <div>
+          <label for="confirm_password">Confirm Password</label>
+          <input type="password" id="confirm_password" />
+          <p id="confirmError" class="error"></p>
+        </div>
+        <p id="successMessage" class="success"></p>
+        <button type="submit">Register</button>
+        <button type="button" id="clearForm">Clear Form</button>
+      </form>
+      <p>Already Have account? <a href="./login.html">Login</a></p>
+    </div>
+    <script src="../js/theme.js"></script>
+    <script src="../js/registration.js"></script>
+  </body>
+</html>

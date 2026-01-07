@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../css/style.css" />
+    <meta charset="UTF-8" />
+    <title>Blog page</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="logo">
+          <h1>Personal Blog</h1>
+          <p>all my personal articles</p>
+        </div>
+        <nav>
+          <a href="#Home">Home</a>
+          <a href="#About">About</a>
+          <a href="#Post">Posts</a>
+          <a href="#Contact">Contact</a>
+          <button>Log out</button>
+          <div class="theme-toggle">
+            <label for="darkMode">Dark Mode</label>
+            <label class="switch">
+              <input type="checkbox" id="darkMode" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="controls-bar">
+      <div class="font-controls">
+        <span>Font Size:</span>
+        <button id="font-small">Small</button>
+        <button id="font-medium">Medium</button>
+        <button id="font-large">Large</button>
+      </div>
+      <button id="refresh-data">Refresh Data</button>
+    </div>
+
+    <main>
+      <article id="Home">
+        <h2>Featured Post</h2>
+        <p>This is Featured post</p>
+      </article>
+      <section id="Post">
+        <h2>Recent Posts</h2>
+
+        <article>
+          <h3>Post 1</h3>
+          <p>
+            React, also known as React.js or ReactJS, is an open-source
+            JavaScript library used<br />
+            for building user interfaces (UIs). It's maintained by Meta and a
+            large community.
+          </p>
+        </article>
+
+        <article>
+          <h3>Post 2</h3>
+          <p>
+            React, also known as React.js or ReactJS, is an open-source
+            JavaScript library used<br />
+            for building user interfaces (UIs). It's maintained by Meta and a
+            large community.
+          </p>
+        </article>
+
+        <article>
+          <h3>Post 3</h3>
+          <p>
+            React, also known as React.js or ReactJS, is an open-source
+            JavaScript library used<br />
+            for building user interfaces (UIs). It's maintained by Meta and a
+            large community.
+          </p>
+        </article>
+      </section>
+
+      <aside id="About">
+        <h3>Search</h3>
+        <form>
+          <input type="text" placeholder="search here" />
+          <button type="submit">Search</button>
+        </form>
+
+        <div>
+          <h2>Categories</h2>
+          <ul>
+            <li>Category 1</li>
+            <li>Category 2</li>
+            <li>Category 3</li>
+            <li>Category 4</li>
+          </ul>
+        </div>
+
+        <div>
+          <h2>Recent Comments</h2>
+          <p>No comments yet</p>
+        </div>
+      </aside>
+    </main>
+
+    <footer id="Contact">
+      <p>&copy; 2025 All copy rights reserved by Tanvir Hossain</p>
+      <nav>
+        <a href="#">github</a>
+        <a href="#">Linkedin</a>
+      </nav>
+    </footer>
+    <script src="../js/blog.js"></script>
+  </body>
+</html>

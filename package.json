@@ -1,0 +1,17 @@
+{
+  "name": "personal-blog",
+  "version": "1.0.0",
+  "description": "A personal blog website with form validation, data storage, and async data handling",
+  "scripts": {
+    "start": "parcel src/html/blog.html",
+    "build": "parcel build src/html/blog.html --dist-dir dist --public-url ./",
+    "serve": "parcel serve src/html/blog.html",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "gh-pages": "^5.0.0"
+  }
+}

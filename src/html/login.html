@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <h1 class="name_tag">Login Page</h1>
+    <div class="theme-toggle">
+      <label for="darkMode">Dark Mode</label>
+      <label class="switch">
+        <input type="checkbox" id="darkMode" />
+        <span class="slider"></span>
+      </label>
+    </div>
+    <div class="form-container">
+      <form action="blog.html" id="loginForm">
+        <div>
+          <label for="email">email</label>
+          <input type="email" name="" id="email" />
+          <p id="emailError" class="error"></p>
+        </div>
+
+        <div>
+          <label for="password">password</label>
+          <input id="password" type="password" placeholder="password" />
+          <p id="passwordError" class="error"></p>
+        </div>
+
+        <div class="remember">
+          <input type="checkbox" id="remember" />
+          <label for="remember">Remember me</label>
+        </div>
+        <button type="submit">Login</button>
+      </form>
+      <p>Don't have account ? <a href="registration.html">Register</a></p>
+    </div>
+
+    <script src="../js/theme.js"></script>
+    <script src="../js/login.js"></script>
+  </body>
+</html>

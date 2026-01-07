@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "postId": 1,
+    "author": "Alice",
+    "content": "Great introduction! Looking forward to more posts.",
+    "date": "2023-10-02"
+  },
+  {
+    "id": 2,
+    "postId": 1,
+    "author": "Charlie",
+    "content": "JavaScript is indeed versatile. Thanks for sharing!",
+    "date": "2023-10-03"
+  },
+  {
+    "id": 3,
+    "postId": 2,
+    "author": "Diana",
+    "content": "CSS Grid makes layout so much easier.",
+    "date": "2023-10-06"
+  }
+]

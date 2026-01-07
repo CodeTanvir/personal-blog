@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Introduction to JavaScript",
+    "content": "JavaScript is a versatile programming language used for web development. It allows you to add interactivity to websites.",
+    "author": "John Doe",
+    "date": "2023-10-01",
+    "category": "Programming"
+  },
+  {
+    "id": 2,
+    "title": "CSS Grid Layout",
+    "content": "CSS Grid is a powerful layout system that allows you to create complex web layouts with ease.",
+    "author": "Jane Smith",
+    "date": "2023-10-05",
+    "category": "Web Design"
+  },
+  {
+    "id": 3,
+    "title": "React Best Practices",
+    "content": "Learn the best practices for building React applications, including component structure and state management.",
+    "author": "Bob Johnson",
+    "date": "2023-10-10",
+    "category": "React"
+  }
+]

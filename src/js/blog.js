@@ -169,7 +169,7 @@ async function loadPosts() {
     showLoadingSpinner(postsSection);
 
     try {
-        const response = await fetch('../posts.json');
+        const response = await fetch('./posts.json');
         if (!response.ok) throw new Error('Failed to load posts');
         const posts = await response.json();
 
@@ -224,7 +224,7 @@ async function loadComments(postId) {
     showLoadingSpinner(commentsList);
 
     try {
-        const response = await fetch('../comments.json');
+        const response = await fetch('./comments.json');
         if (!response.ok) throw new Error('Failed to load comments');
         const allComments = await response.json();
         const comments = allComments.filter(c => c.postId == postId);
@@ -280,7 +280,7 @@ async function handleCommentSubmit(e) {
 
 async function loadUserProfile() {
     try {
-        const response = await fetch('../users.json');
+        const response = await fetch('./users.json');
         if (!response.ok) throw new Error('Failed to load user');
         const user = await response.json();
 

@@ -5,6 +5,7 @@
   "scripts": {
     "start": "parcel src/html/blog.html",
     "build": "parcel build src/html/*.html --dist-dir dist --public-url ./",
+    "postbuild": "cp src/*.json dist/",
     "serve": "parcel serve src/html/blog.html",
     "deploy": "gh-pages -d dist"
   },
